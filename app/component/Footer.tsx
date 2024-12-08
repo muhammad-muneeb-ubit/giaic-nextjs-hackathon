@@ -11,7 +11,7 @@ const Footer = () => {
           </p>
           <Image
             className="mt-8"
-            src={"/social.png"}
+            src={"/Social.png"}
             alt="social links"
             width={148}
             height={28}
