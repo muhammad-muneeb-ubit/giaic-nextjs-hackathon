@@ -1,35 +1,3 @@
-// import Image from "next/image";
-// interface CardwosaleProps {
-//     name: string;
-//     clothimageUrl: string;
-//     price: string | number;
-//     ratingimageUrl: string;
-//   }
-
-//   const Cardwosale: React.FC<CardwosaleProps> =  ({ name, clothimageUrl, price, ratingimageUrl}) => {
-//   return (
-//     <div className="w-[296px] h-[444px] card-shadow text-start rounded bg-white flex justify-center items-start pl-[30px] flex-col">
-//       <div className="w-[100%] bg-white rounded-md ">
-//         <Image
-//           className=""
-//           src={clothimageUrl}
-//           alt={name}
-//           width={10}
-//           height={10}
-//           style={{ width: "80%" }}
-//         />
-//       </div>
-//       <div className="mt-[30px] font-bold text-[13px]">{name}</div>
-//       <div>
-//         <Image src={ratingimageUrl} alt="rating" width={150} height={19} />
-//       </div>
-//         <div className="w-[55px] h-[32px] font-bold">{price}</div>
-//     </div>
-//   );
-// };
-
-// export default Cardwosale;
-
 
 import Image from "next/image";
 

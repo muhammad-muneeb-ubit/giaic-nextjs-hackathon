@@ -1,20 +1,3 @@
-// import Image from "next/image"
-
-// const Sale = () => {
-//   return (
-//     <header className="w-full h-[48px] bg-black text-white flex content-around">
-//     <div className="flex justify-center items-center gap-[8px] w-[70%] ">
-//         <div className="">Sign up and get 20% off to your first order. </div>
-//         <div className="hover:cursor-pointer"><a href="#" className="underline">Sign Up Now</a></div>
-//     </div>
-//     <div className="w-[30%]  flex justify-center items-center hover:cursor-pointer px-[170px]"><Image src={"/cross.png"} width={16} height={16} alt="language"/></div>
-// </header>
-//   )
-// }
-
-// export default Sale
-
-
 import Image from "next/image";
 
 const Sale = () => {
