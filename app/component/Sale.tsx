@@ -1,15 +1,36 @@
-import Image from "next/image"
+// import Image from "next/image"
+
+// const Sale = () => {
+//   return (
+//     <header className="w-full h-[48px] bg-black text-white flex content-around">
+//     <div className="flex justify-center items-center gap-[8px] w-[70%] ">
+//         <div className="">Sign up and get 20% off to your first order. </div>
+//         <div className="hover:cursor-pointer"><a href="#" className="underline">Sign Up Now</a></div>
+//     </div>
+//     <div className="w-[30%]  flex justify-center items-center hover:cursor-pointer px-[170px]"><Image src={"/cross.png"} width={16} height={16} alt="language"/></div>
+// </header>
+//   )
+// }
+
+// export default Sale
+
+
+import Image from "next/image";
 
 const Sale = () => {
   return (
-    <header className="w-full h-[48px] bg-black text-white flex content-center">
-    <div className="flex justify-center items-center gap-[8px] w-[70%] ">
-        <div className="">Sign up and get 20% off to your first order. </div>
-        <div className="hover:cursor-pointer"><a href="#" className="underline">Sign Up Now</a></div>
-    </div>
-    <div className="w-[30%] flex content-end items-center hover:cursor-pointer"><Image src={"/cross.png"} width={20} height={20} alt="language"/></div>
-</header>
-  )
-}
+    <header className="w-full h-[48px] bg-black text-white flex justify-between items-center px-4 md:px-[100px]">
+      <div className="flex justify-center items-center gap-[8px] w-full md:w-[70%] text-sm md:text-base">
+        <div>Sign up and get 20% off your first order.</div>
+        <div className="hover:cursor-pointer">
+          <a href="#" className="underline">Sign Up Now</a>
+        </div>
+      </div>
+      <div className="w-[30%] flex justify-center items-center hover:cursor-pointer md:px-[170px]">
+        <Image src={"/cross.png"} width={16} height={16} alt="close" />
+      </div>
+    </header>
+  );
+};
 
-export default Sale
+export default Sale;
