@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="px-4 lg:px-[100px]">
+    <div className="px-4 lg:px-[100px] mt-16">
       <div className="mt-8 flex flex-wrap lg:flex-nowrap pb-8">
         <div className="info w-full lg:w-[30%] mr-0 lg:mr-9 mb-8 lg:mb-0">
           <Image src={"/logo.png"} alt="logo" width={167} height={23} />
-          <p className="mt-6 text-gray-400 text-sm">
+          <p className="mt-6 text-gray-700  text-sm">
             We have clothes that suit your style and which you’re proud to wear. From women to men.
           </p>
           <Image
@@ -30,28 +30,28 @@ const Footer = () => {
             </thead>
             <tbody>
               <tr>
-                <td className="text-gray-400">About</td>
-                <td className="text-gray-400">Customer Support</td>
-                <td className="text-gray-400">Account</td>
-                <td className="text-gray-400">Free eBooks</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">About</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Customer Support</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Account</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Free eBooks</td>
               </tr>
               <tr>
-                <td className="text-gray-400">Features</td>
-                <td className="text-gray-400">Delivery Details</td>
-                <td className="text-gray-400">Manage Deliveries</td>
-                <td className="text-gray-400">Development Tutorial</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Features</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Delivery Details</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Manage Deliveries</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Development Tutorial</td>
               </tr>
               <tr>
-                <td className="text-gray-400">Works</td>
-                <td className="text-gray-400">Terms & Conditions</td>
-                <td className="text-gray-400">Orders</td>
-                <td className="text-gray-400">How to - Blog</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Works</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Terms & Conditions</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Orders</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">How to - Blog</td>
               </tr>
               <tr>
-                <td className="text-gray-400">Career</td>
-                <td className="text-gray-400">Privacy Policy</td>
-                <td className="text-gray-400">Payments</td>
-                <td className="text-gray-400">YouTube Playlist</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Career</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Privacy Policy</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">Payments</td>
+                <td className="text-gray-400 hover:text-gray-700 cursor-pointer">YouTube Playlist</td>
               </tr>
             </tbody>
           </table>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -12,10 +13,11 @@ const Hero = () => {
       <div className="text-sm sm:text-base md:text-lg lg:text-[16px] leading-relaxed max-w-full lg:max-w-[545px] mb-8">
         Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
       </div>
-
+    <Link href={"/arrival"}>
       <button className="w-full sm:w-[212px] h-[52px] bg-black text-white rounded-full py-[12px] px-[16px] text-center">
         Shop Now
       </button>
+    </Link>
     </div>
   );
 };

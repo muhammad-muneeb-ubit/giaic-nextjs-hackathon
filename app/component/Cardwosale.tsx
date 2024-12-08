@@ -15,7 +15,7 @@ const Cardwosale: React.FC<CardwosaleProps> = ({
   ratingimageUrl,
 }) => {
   return (
-    <div className="card-shadow text-start rounded bg-white flex flex-col items-center p-4 sm:p-6 md:p-8 max-w-[90%] sm:max-w-[70%] lg:max-w-[296px]">
+    <div className="card-shadow text-start rounded bg-white flex flex-col cursor-pointer hover:scale-125  transition items-center p-4 sm:p-6 md:p-8 max-w-[90%] sm:max-w-[70%] lg:max-w-[296px]">
       <div className="w-full bg-white rounded-md flex justify-center">
         <Image
           src={clothimageUrl}

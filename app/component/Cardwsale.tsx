@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 
 interface CardwsaleProps {
@@ -20,7 +18,7 @@ const Cardwsale: React.FC<CardwsaleProps> = ({
   off,
 }) => {
   return (
-    <div className="card-shadow text-start rounded bg-white flex flex-col items-center p-4 sm:p-6 md:p-8 max-w-[90%] sm:max-w-[70%] lg:max-w-[296px]">
+    <div className="cursor-pointer hover:scale-125  transition card-shadow text-start rounded bg-white flex flex-col items-center  p-4 sm:p-6 md:p-8 max-w-[90%] sm:max-w-[70%] lg:max-w-[296px]">
       <div className="w-full bg-white rounded-md flex justify-center">
         <Image
           src={clothimageUrl}

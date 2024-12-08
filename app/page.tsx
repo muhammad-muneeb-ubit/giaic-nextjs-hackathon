@@ -33,7 +33,7 @@ export default function Home() {
           <Cardwsale name={"SLEEVE STRIPED T-SHIRT"} clothimageUrl={"/pic4.webp"} price={"130$"} ratingimageUrl={"/rating4.5.png"} removeprice={"160$"} off={"-30$"} />
         </div>
         <div className="flex justify-center items-center">
-          <button className="border-black border-[1px] px-[80px] py-[15px] mt-[36px]">View All</button>
+          <button className="border-black border-[1px] px-[80px] py-[15px] mt-[36px] hover:bg-black hover:text-white">View All</button>
         </div>
       </div>
 
@@ -46,7 +46,7 @@ export default function Home() {
           <Cardwosale name={"FADED SKINNY JEANS"} clothimageUrl={"/pic8.webp"} price={"210$"} ratingimageUrl={"/rating4.5.png"} />
         </div>
         <div className="flex justify-center items-center">
-          <button className="border-black border-[1px] px-[80px] py-[15px] mt-[36px]">View All</button>
+          <button className="border-black border-[1px] px-[80px] py-[15px] mt-[36px] hover:bg-black hover:text-white">View All</button>
         </div>
       </div>
 
