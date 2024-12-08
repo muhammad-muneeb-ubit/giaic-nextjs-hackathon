@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Sale = () => {
   return (
@@ -6,7 +7,7 @@ const Sale = () => {
       <div className="flex justify-center items-center gap-[8px] w-full md:w-[70%] text-sm md:text-base">
         <div>Sign up and get 20% off your first order.</div>
         <div className="hover:cursor-pointer">
-          <a href="#" className="underline">Sign Up Now</a>
+          <Link href="/login" className="underline">Sign Up Now</Link>
         </div>
       </div>
       <div className="w-[30%] flex justify-center items-center hover:cursor-pointer md:px-[170px]">

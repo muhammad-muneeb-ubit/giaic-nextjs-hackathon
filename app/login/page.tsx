@@ -17,7 +17,7 @@ const page = () => {
                 type="email" 
                 id="email" 
                 name="email" 
-                className="w-full p-3 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                className=" w-full p-3 mt-1 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
                 required 
               />
             </div>
@@ -27,7 +27,7 @@ const page = () => {
                 type="password" 
                 id="password" 
                 name="password" 
-                className="w-full p-3 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                className="w-full p-3 mt-1 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
                 required 
               />
             </div>

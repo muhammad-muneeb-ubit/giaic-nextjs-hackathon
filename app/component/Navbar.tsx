@@ -1,7 +1,7 @@
 "use client";
 import { FaSearch, FaRegUserCircle } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { FiShoppingCart, FiSearch } from "react-icons/fi";
+import { FiShoppingCart} from "react-icons/fi";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link"; 
