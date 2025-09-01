@@ -1,0 +1,9 @@
+This is a sample text file for demonstration purposes.
+
+You can store any plain text data here, such as:
+- Configuration settings
+- Data exports
+- Log files
+- Raw text content
+
+This file can be edited or replaced with your actual data.

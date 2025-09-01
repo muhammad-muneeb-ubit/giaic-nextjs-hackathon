@@ -1,4 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Text Data Storage Repository
+
+This repository serves as a private storage solution for text format data, built on a [Next.js](https://nextjs.org) foundation.
+
+## Purpose
+
+This repository is designed to store and organize text format data including:
+- Plain text files
+- Markdown documents  
+- JSON configuration files
+- CSV data files
+- Notes and documentation
+
+## Data Storage Structure
+
+All text data is organized in the `/data` directory:
+
+```
+data/
+├── text-files/     # General text files and plain text documents
+├── notes/          # Notes, memos, and quick text entries
+├── documents/      # Formatted documents and longer text content
+└── README.md       # Data directory documentation
+```
+
+## Getting Started with Data Storage
+
+1. Navigate to the `/data` directory
+2. Choose the appropriate subdirectory for your content type
+3. Add your text files using descriptive filenames
+4. Follow the naming conventions outlined in `/data/README.md`
+
+---
+
+## Next.js Development (Optional)
+
+This repository also maintains a Next.js application for potential web-based data viewing.
 
 ## Getting Started
 
