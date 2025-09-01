@@ -1,0 +1,20 @@
+{
+  "repository_info": {
+    "name": "Text Data Storage Repository",
+    "purpose": "Store and organize text format data",
+    "private": true,
+    "created_date": "2024-01-01"
+  },
+  "data_types_supported": [
+    "plain text (.txt)",
+    "markdown (.md)", 
+    "JSON (.json)",
+    "CSV (.csv)",
+    "configuration files"
+  ],
+  "directory_structure": {
+    "text-files": "General text files and plain text documents",
+    "notes": "Notes, memos, and quick text entries", 
+    "documents": "Formatted documents and longer text content"
+  }
+}
